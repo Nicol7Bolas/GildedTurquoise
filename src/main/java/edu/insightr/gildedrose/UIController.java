@@ -10,4 +10,9 @@ public class UIController {
     public void Test(ActionEvent actionEvent) {
         oui.setText("Oui.");
     }
+
+    public static void main(String[] args){
+        UIController ui = new UIController();
+    }
 }
+
