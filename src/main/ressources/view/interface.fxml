@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.GridPane?>
 
 <GridPane fx:controller="edu.insightr.gildedrose.UIController"
-          stylesheets = "edu.insightr.gildedrose/styles.css"
+          stylesheets = "../edu.insightr.gildedrose/styles.css"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
     <Button text="test" onAction="#Test"/>
     <Label GridPane.rowIndex="1" fx:id="oui"/>

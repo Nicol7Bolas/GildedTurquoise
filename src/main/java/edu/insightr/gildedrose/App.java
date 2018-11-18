@@ -10,7 +10,7 @@ public class App extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         try{
-            Parent root = FXMLLoader.load(getClass().getResource("Interface.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("interface.fxml"));
             Scene scene = new Scene(root, 300, 275);
             scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
             primaryStage.setTitle("Interface");
