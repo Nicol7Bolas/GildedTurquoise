@@ -7,18 +7,21 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class App extends Application {
-    public static void main (String[] args) {
-        launch(args);
-    }
-
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Interface.fxml"));
-        Scene scene = new Scene(root, 300, 275);
-        scene.getStylesheets().add("/styles/styles.css");
+        try{
+            Parent root = FXMLLoader.load(getClass().getResource("Interface.fxml"));
+            Scene scene = new Scene(root, 300, 275);
+            scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
+            primaryStage.setTitle("Interface");
+            primaryStage.setScene(scene);
+            primaryStage.show();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
 
-        primaryStage.setTitle("Welcome");
-        primaryStage.setScene(scene);
-        primaryStage.show();
+    public static void main(String[] args) {
+        launch(args);
     }
 }
