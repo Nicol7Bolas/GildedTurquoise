@@ -1,4 +1,11 @@
-#GildedRoseJavaKata
+Say hello to The Guilded Turquoise Kata in Java
+
+This is our modified version of the Rose Project with the update cucumber tests and User Interface.
+The main cast of our crew is comprised of the following members:
+Guihaume Buevoz, Maxime Bos, Nicola Berte, Nikolas Labranque, David Costa Dos Santos
+
+#The Gilded Rose
+
 The Gilded Rose Kata in Java
 
 #Original Description of the Gilded Rose
