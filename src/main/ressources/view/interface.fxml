@@ -4,9 +4,12 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.GridPane?>
 
+<?import javafx.scene.control.ListCell?>
+
 <GridPane fx:controller="edu.insightr.gildedrose.UIController"
           stylesheets = "styles.css"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-    <Button text="test" onAction="#Test"/>
-    <Label GridPane.rowIndex="1" fx:id="oui"/>
+    <Button text="test" onAction="#DisplayInventory"/>
+    <Label GridPane.rowIndex="1" fx:id="label1"/>
+    <ListCell GridPane.rowIndex="1" fx:id="list1"/>
 </GridPane>
