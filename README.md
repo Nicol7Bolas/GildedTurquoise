@@ -1,3 +1,7 @@
+#GildedTurquoiseJavaKata
+
+Welcome to our newest and latest version of Guilded Turquoise Java Kata! This piece of work was done by a group of fine gentlemen namely: Guihaume Buevoz, Maxime Bos, Nicola Berte, Nikolas Labranque et David Costa Dos Santos.
+
 #GildedRoseJavaKata
 The Gilded Rose Kata in Java
 
